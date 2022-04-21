@@ -1,0 +1,2 @@
+#define WINHTTP_API __declspec(dllexport)
+#define WINHTTP_API __declspec(dllimport)
