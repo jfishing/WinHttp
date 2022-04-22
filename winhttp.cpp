@@ -16,3 +16,4 @@ HOOKAPI int HookFunction(void *oldfunc, void **poutold, void *newfunc);
 */
 #pragma comment(linker, "/export:HookFunction=BDXCORE.HookFunction")
 #pragma comment(linker, "/export:GetServerSymbol=BDXCORE.dlsym_real")
+#pragma comment(linker, "/export:dlsym_real=BDXCORE.dlsym_real")
